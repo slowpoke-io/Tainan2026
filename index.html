@@ -68,6 +68,17 @@
         padding-top: calc(2.5rem + env(safe-area-inset-top));
       }
     </style>
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("./sw.js")
+            .then((reg) => console.log("SW Registered"))
+            .catch((err) => console.log("SW Registration Failed", err));
+        });
+      }
+    </script>
     <script type="importmap">
       {
         "imports": {

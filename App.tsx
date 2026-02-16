@@ -338,7 +338,7 @@ const App: React.FC = () => {
       >
         <div className="flex justify-between items-center mb-2">
           <h1 className="text-2xl font-bold font-serif tracking-wide">
-            {isReorderMode ? "管理行程順序" : "2026 • 在節NAN逃"}
+            {isReorderMode ? "調整行程順序" : "2026 • 在節NAN逃"}
           </h1>
           <div className="flex items-center gap-2">
             <AnimatePresence>
