@@ -1,0 +1,17 @@
+{
+  "name": "2026在節NAN逃",
+  "short_name": "在節NAN逃",
+  "description": "專為台南旅行設計的二日行程規劃 App",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f8f5f0",
+  "theme_color": "#8C2D1F",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/533/533476.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

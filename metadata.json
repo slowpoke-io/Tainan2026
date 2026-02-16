@@ -1,0 +1,7 @@
+{
+  "name": "台南慢活二日遊 - Tainan Trip Planner",
+  "description": "一個專為台南旅行設計的二日行程規劃 App，結合古蹟美食風格，支援拖曳排序、多圖輪播與景點詳細資訊。",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
