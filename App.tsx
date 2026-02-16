@@ -13,7 +13,7 @@ import {
   X,
   RotateCcw,
 } from "lucide-react";
-import newYearIcon from "@/public/春.png";
+import newYearIcon from "/春.png";
 import { Spot, DayTab, AVAILABLE_TAGS, TagType } from "./types";
 import { INITIAL_SPOTS } from "./data";
 import { supabase } from "./lib/supabase";
